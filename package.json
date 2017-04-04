@@ -1,0 +1,50 @@
+{
+  "name": "tj-workflow",
+  "version": "1.0.0",
+  "description": "场景要求：代码独立，敏捷快速，没有显著的MileStone概念，上线时间点灵活",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "major": "npm version major && git push --follow-tags",
+    "minor": "npm version minor && git push --follow-tags",
+    "patch": "npm version patch && git push --follow-tags",
+    "build": "gulp dist-tar"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:damujiangr/tj-workflow.git"
+  },
+  "keywords": [
+    "tj-workflow"
+  ],
+  "author": "damujiangr <damujiangr@aliyun.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "amd-optimize": "^0.6.1",
+    "autoprefixer": "^6.4.1",
+    "browser-sync": "^2.16.0",
+    "del": "^2.2.1",
+    "gulp": "git://github.com/gulpjs/gulp#4.0",
+    "gulp-concat": "^2.6.0",
+    "gulp-cssnano": "^2.1.2",
+    "gulp-gzip": "^1.4.0",
+    "gulp-htmlmin": "^2.0.0",
+    "gulp-imagemin": "^3.0.1",
+    "gulp-inline-source": "^2.1.0",
+    "gulp-plumber": "^1.1.0",
+    "gulp-postcss": "^6.2.0",
+    "gulp-rev-all": "^0.8.24",
+    "gulp-rev-delete-original": "^0.2.1",
+    "gulp-sass": "^2.3.2",
+    "gulp-tar": "^1.9.0",
+    "gulp-tmpl2js": "^0.1.1",
+    "gulp-uglify": "^2.0.0",
+    "gulp-useref": "^3.1.2",
+    "gulp-util": "^3.0.7",
+    "lodash": "^4.13.1",
+    "merge-stream": "^1.0.0",
+    "mockjs": "^1.0.1-beta2",
+    "through2": "^2.0.1",
+    "vinyl-ftp": "^0.5.0"
+  }
+}

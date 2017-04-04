@@ -1,0 +1,39 @@
+@charset "UTF-8";
+.page-bbb{
+  border: 3px solid #6CC146;
+  color: #6CC146;
+}
+
+@font-face {font-family: "iconfont";
+  src: url('../../webfonts/iconfont.eot'); /* IE9*/
+  src: url('../../webfonts/iconfont.eot#iefix') format('embedded-opentype'), /* IE6-IE8 */
+  url('../../webfonts/iconfont.woff') format('woff'), /* chrome, firefox */
+  url('../../webfonts/iconfont.ttf') format('truetype'), /* chrome, firefox, opera, Safari, Android, iOS 4.2+*/
+  url('../../webfonts/iconfont.svg#iconfont') format('svg'); /* iOS 4.1- */
+}
+.iconfont {
+  font-family:"iconfont" !important;
+  font-size:16px;
+  font-style:normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.modB {
+  color: #bbbbbb;
+}
+
+.page-b{
+  border: 3px solid #6CC146;
+  color: #6CC146;
+}
+
+//雪碧图要单独写样式,如下
+//width和height如果不写,则自动添加
+.icon-github{
+	background-image: url(../../slice/icon-facebook.png);
+}
+
+.icon-facebook{
+	background-image: url(../../slice/icon-github.png);
+}
